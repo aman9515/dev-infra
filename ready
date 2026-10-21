@@ -1,0 +1,24 @@
+oot root 89 Oct 21 13:44 git-repo
+drwxr-xr-x. 3 root root 23 Oct 21 14:08 ssh-clone
+drwxr-xr-x. 3 root root 23 Oct 21 14:11 http-clone
+[root@ip-172-31-9-153 ~]# git clone https://github.com/aman9515/dev-infra.git
+Cloning into 'dev-infra'...
+remote: Enumerating objects: 10, done.
+remote: Counting objects: 100% (10/10), done.
+remote: Compressing objects: 100% (7/7), done.
+[root@ip-172-31-9-153 dev-infra]# git checkout -b feature/test-work
+Switched to a new branch 'feature/test-work'
+[root@ip-172-31-9-153 dev-infra]# git branch
+* feature/test-work
+  main
+[root@ip-172-31-9-153 dev-infra]# git push origin feature/test-work
+Username for 'https://github.com': aman9515
+Password for 'https://aman9515@github.com': 
+Total 0 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: 
+remote: Create a pull request for 'feature/test-work' on GitHub by visiting:
+remote:      https://github.com/aman9515/dev-infra/pull/new/feature/test-work
+remote: 
+To https://github.com/aman9515/dev-infra.git
+ * [new branch]      feature/test-work -> feature/test-work
+[root@ip-172-31-9-153 dev-infra]# c
